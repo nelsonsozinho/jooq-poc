@@ -83,7 +83,7 @@ task jooqGenerateStubs(type: Wrapper) {
 			driver('org.postgresql.Driver')
 			url('jdbc:postgresql://localhost:5432/wallet')
 			user('postgres')
-			password('fpf@1212')
+			password('')
 		}
 
 		generator() {

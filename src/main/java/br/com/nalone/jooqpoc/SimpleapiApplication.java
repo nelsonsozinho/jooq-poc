@@ -21,20 +21,10 @@ import static springfox.documentation.builders.PathSelectors.regex;
 @EnableJpaRepositories
 @EnableTransactionManagement
 @SpringBootApplication
-@EnableSwagger2
 public class SimpleapiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SimpleapiApplication.class, args);
 	}
 
-	@Bean
-	public Docket productApi() {
-		return new Docket(DocumentationType.SWAGGER_2)
-				.select()
-				.apis(RequestHandlerSelectors.basePackage("br.com.nalone.jooqpoc.wallet.controller"))
-				.paths(regex("/.*"))
-				.build();
-
-	}
 }

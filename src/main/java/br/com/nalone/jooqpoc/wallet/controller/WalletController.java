@@ -4,7 +4,6 @@ package br.com.nalone.jooqpoc.wallet.controller;
 import br.com.nalone.jooqpoc.core.domain.ResponseMessage;
 import br.com.nalone.jooqpoc.core.enums.ErrorType;
 import br.com.nalone.jooqpoc.core.exception.ServiceException;
-import br.com.nalone.jooqpoc.wallet.service.JooqWalletService;
 import br.com.nalone.jooqpoc.wallet.service.WalletService;
 import br.com.nalone.jooqpoc.wallet.vo.WalletVO;
 import io.swagger.annotations.Api;

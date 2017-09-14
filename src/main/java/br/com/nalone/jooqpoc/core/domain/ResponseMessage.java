@@ -16,7 +16,6 @@ public class ResponseMessage {
     private int code;
     private List<Error> errors;
 
-
     public ResponseMessage(final ErrorType errorType) {
         this.code = errorType.getCode();
         this.message = errorType.getMessage();

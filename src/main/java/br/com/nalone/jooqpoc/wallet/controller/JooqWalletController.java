@@ -1,6 +1,5 @@
 package br.com.nalone.jooqpoc.wallet.controller;
 
-
 import br.com.nalone.jooqpoc.core.domain.ResponseMessage;
 import br.com.nalone.jooqpoc.wallet.service.JooqWalletService;
 import br.com.nalone.jooqpoc.wallet.vo.WalletVO;
@@ -14,9 +13,9 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@Api(value = "jooq-wallet", description = "Endpoint to test jOOQ")
 @RestController
 @RequestMapping("/jooq-wallet")
+@Api(value = "jooq-wallet", description = "Endpoint to test jOOQ")
 public class JooqWalletController {
 
     @Autowired
@@ -42,5 +41,7 @@ public class JooqWalletController {
 
         return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
     }
+
+
 
 }

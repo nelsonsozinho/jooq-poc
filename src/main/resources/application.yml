@@ -12,7 +12,7 @@ spring:
     url: jdbc:postgresql://${postgres.hostname:localhost}:${postgres.port:5432}/wallet
     driver-class-name: org.postgresql.Driver
     username: ${postgres.user:postgres}
-    password: ${postgres.password:fpf@1212}
+    password: ${postgres.password:postgres}
     validation-query: SELECT 1
     test-on-borrow: true
     initial-size: 3
@@ -42,7 +42,7 @@ spring:
     url: jdbc:postgresql://${postgres.hostname:localhost}:${postgres.port:5432}/wallet-test
     driver-class-name: org.postgresql.Driver
     username: ${postgres.user:postgres}
-    password: ${postgres.password:fpf@1212}
+    password: ${postgres.password:postgres}
     validation-query: SELECT 1
     test-on-borrow: true
     initial-size: 3

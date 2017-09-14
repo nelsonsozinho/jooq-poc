@@ -1,6 +1,6 @@
-package br.com.nalone.jooqpoc.wallet.repository;
+package br.com.nalone.jooqpoc.asset.repository;
 
-import br.com.nalone.jooqpoc.wallet.model.Asset;
+import br.com.nalone.jooqpoc.asset.model.Asset;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 

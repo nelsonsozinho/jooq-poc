@@ -1,6 +1,7 @@
 package br.com.nalone.jooqpoc.wallet.model;
 
 
+import br.com.nalone.jooqpoc.asset.model.Asset;
 import lombok.Getter;
 import lombok.Setter;
 
